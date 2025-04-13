@@ -29,7 +29,6 @@
   
   /* Each section is full-screen and centers image */
   .slide {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +37,7 @@
   
   /* Image styling */
   .slide img {
+    margin: 8px 8px 8px 8px;
     width: 90%;
     height: 90%;
     max-width: 100%;
